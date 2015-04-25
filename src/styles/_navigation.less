@@ -1,0 +1,23 @@
+#navigation {
+
+	padding: ( @line-height-computed * 6 ) 0 0;
+
+	&.affix {
+		top: 0;
+	}
+
+	.logo-symbol {
+
+		margin: 0 0 ( @line-height-computed * 3 );
+	}
+
+	.nav {
+		li {
+			&.active {
+				a {
+					color: @brand-primary;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+---
+layout: 		illustrations-layout
+
+title: 			Illustrations
+description:	|
+  We have selected a watercolor treatment to be used in regards to illustrations.
+
+illustrations:
+  - ./images/illustrations-01.jpg
+  - ./images/illustrations-02.jpg
+  - ./images/illustrations-03.jpg
+
+---

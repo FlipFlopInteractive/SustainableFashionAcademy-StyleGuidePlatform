@@ -1,0 +1,17 @@
+---
+layout: 		logo-layout
+title: 			Logo
+
+description:	|
+  We have updated in regards to color, font, kerning and composition.  
+  Click on the link icon to download the eps format of the logo.
+
+main: 			logo-type-white
+
+logos:
+  - logo-type-thunderbird
+  - logo-type-cod-gray
+  - logo-type-powder-ash
+  - logo-type-swirl
+
+---

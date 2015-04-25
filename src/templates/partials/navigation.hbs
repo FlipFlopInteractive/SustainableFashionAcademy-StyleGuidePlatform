@@ -1,0 +1,8 @@
+	<nav id="navigation">
+		<img src="./images/logo-symbol.png" alt="Sustainable Fashion Academy" class="logo-symbol">
+		<ul class="nav">
+		{{#compose src="paragraphs/*.yml" }}
+			<li><a href="#{{ slugify title }}" title="{{ title }}">{{ title }}</a></li>
+		{{/compose}}
+		</ul>
+	</nav>

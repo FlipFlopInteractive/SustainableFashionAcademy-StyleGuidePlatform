@@ -1,0 +1,35 @@
+<section id="{{ slugify title }}">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1>{{ title }}</h1>
+			{{#markdown}}{{ description }}{{/markdown}}
+		</div>
+	</div>
+	<div class="row">
+		{{#each photographs }}
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			{{> image this }}
+			<br/>
+		</div>
+		{{/each}}
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<h3>Text on photo</h3>
+			<p>A word or a short sentence can be written directly on a photo. Longer copy should be written on either a white or color background. However, exceptions can be made. A photo of a concrete wall for example will probably make a descent background for longer copy as well.</p>
+			<h3>Readability</h3>
+			<p>Text on a photo can be a nice visual touch but defeat its purpose if the text is not readable. If there’s too much distraction in the image you will lose the readability. Have this in mind when choosing photo and whether putting the text directly on the photo or in a box.</p>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			{{> image "./images/readable.jpg" }}
+			<br/>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			{{> image "./images/not-readable.jpg" }}
+			<br/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<hr/>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,14 @@
+---
+layout: 		graphic-elements-layout
+
+title: 			Graphic elements
+description:	|
+  The following graphical elements have been designed and prepared to be used in digital documents.
+
+arrows:
+  - ./images/arrow-left.png
+  - ./images/arrow-right.png
+  - ./images/arrow-up.png
+  - ./images/arrow-down.png
+
+---

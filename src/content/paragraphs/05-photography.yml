@@ -1,0 +1,16 @@
+---
+layout: 		photography-layout
+
+title: 			Photography
+description:	|
+  We have selected a range of photographs which indicates the feeling and tonality to be used.
+
+photographs:
+  - ./images/photography-01.jpg
+  - ./images/photography-02.jpg
+  - ./images/photography-03.jpg
+  - ./images/photography-04.jpg
+  - ./images/photography-05.jpg
+  - ./images/photography-06.jpg
+
+---

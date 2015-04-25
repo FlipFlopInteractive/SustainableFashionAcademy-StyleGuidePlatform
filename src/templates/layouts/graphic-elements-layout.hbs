@@ -1,0 +1,44 @@
+<section id="{{ slugify title }}">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1>{{ title }}</h1>
+			{{#markdown}}{{ description }}{{/markdown}}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<h2>Arrows</h2>
+			<p>The following arrows are recommended:</p>
+		</div>
+		{{#each arrows }}
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					{{> image this }}
+				</div>
+			</div>
+		</div>
+		{{/each}}
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<h2>Shapes</h2>
+			<p>Only rounded shaped are recommended.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<h2>Shadows</h2>
+			<p>No shadows are allowed in this brand identity.<br/>This due to it's default character. Furthermore shadows are not considered to be contemporary.</p>
+		</div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<h2>Backgrounds</h2>
+			<p>It is the recommendation to use solid color backgrounds in combination with the colors featured in this document.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<hr/>
+		</div>
+	</div>
+</section>

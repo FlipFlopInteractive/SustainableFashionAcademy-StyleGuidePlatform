@@ -1,0 +1,48 @@
+#content {
+
+	section {
+
+		padding: ( @line-height-computed * 6 ) 0 0;
+	}
+
+	.swatch {
+
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+
+		&:after {
+			padding-top: 100%;
+			display: block;
+			content: '';
+		}
+	}
+
+	.digit {
+		font-family: @font-family-sans-serif;
+		letter-spacing: 2px;
+		font-kerning: normal;
+	}
+
+	.font {
+
+		font-size: 36px;
+		line-height: 1.25;
+		margin: 0;
+
+		&.futura-bold, &.futura-book {
+
+			font-family: @font-family-sans-serif;
+		}
+
+		&.futura-bold {
+
+			font-weight: 700;
+		}
+
+		&.arnhem-blond {
+
+			font-family: @font-family-serif;
+		}
+	}
+}

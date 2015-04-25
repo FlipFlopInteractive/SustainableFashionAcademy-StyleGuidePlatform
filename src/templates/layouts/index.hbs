@@ -1,0 +1,18 @@
+{{> header }}
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+						{{> navigation }}
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+						<div id="content" role="main">
+							{{#compose src="paragraphs/*.yml" }}
+								{{ partial this.layout }}
+							{{/compose}}
+						</div>
+					</div>
+				</div>
+			</div>
+
+{{> footer }}

@@ -1,0 +1,29 @@
+#footer {
+
+	padding-top: ( @line-height-computed * 3 );
+
+	.container {
+
+		.row {
+
+			.copyright {
+				
+				text-align: left;
+
+				p {
+					display: inline-block;
+				}
+			}
+
+			.madeby {
+
+				text-align: right;
+
+				@media( max-width: @screen-xs-max ){
+
+					text-align: left;
+				}
+			}
+		}
+	}
+}

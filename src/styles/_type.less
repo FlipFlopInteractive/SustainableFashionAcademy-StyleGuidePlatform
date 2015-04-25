@@ -1,0 +1,33 @@
+p {
+	margin: 0 0 @line-height-computed;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+
+	font-kerning: normal;
+}
+
+h1, .h1 {
+	margin: 0 0 @line-height-computed;
+	font-weight: 700;
+	letter-spacing: 9px;
+	text-transform: uppercase;
+}
+
+h2, .h2 {
+	margin: ( @line-height-computed * 2 ) 0 @line-height-computed;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+
+h3, .h3 {
+	margin: ( @line-height-computed * 2 ) 0 0;
+	font-family: @font-family-serif;
+	font-style: italic;
+
+	&:after {
+		display: block;
+		content: '–';
+		margin-top: 5px;
+	}
+}
