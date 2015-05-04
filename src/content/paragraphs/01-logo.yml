@@ -3,15 +3,27 @@ layout: 		logo-layout
 title: 			Logo
 
 description:	|
-  We have updated in regards to color, font, kerning and composition.  
+  We have updated the logo in regards to composition, color, typography and kerning. We have chosen the composition of centering the type underneath the symbol to give an academic impression. This in combination with the Futura Book font gives the logo a modern and progressive yet established look.
+
+  The type should always be centered underneath the symbol in order to keep the logo consistent.  
+  Abbreviation of Sustainable Fashion Academy to SFA can only occur in written text - this also to keep the logo consistent.  
+  Always use the logo as featured in this document - this in order to maintain consitencty throughout the brand identity.
+  
   Click on the link icon to download the eps format of the logo.
 
 main: 			logo-type-white
 
-logos:
+types:
   - logo-type-thunderbird
   - logo-type-cod-gray
   - logo-type-powder-ash
   - logo-type-swirl
+
+symbols:
+  - logo-symbol-white
+  - logo-symbol-thunderbird
+  - logo-symbol-cod-gray
+  - logo-symbol-powder-ash
+  - logo-symbol-swirl
 
 ---

@@ -2,7 +2,7 @@
 
 	section {
 
-		padding: ( @line-height-computed * 6 ) 0 0;
+		padding: ( @line-height-computed * 3 ) 0;
 	}
 
 	.swatch {
@@ -18,17 +18,14 @@
 		}
 	}
 
-	.digit {
-		font-family: @font-family-sans-serif;
-		letter-spacing: 2px;
-		font-kerning: normal;
-	}
-
 	.font {
 
-		font-size: 36px;
-		line-height: 1.25;
 		margin: 0;
+		font-size: 28px;
+		line-height: 1.25;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 
 		&.futura-bold, &.futura-book {
 
@@ -43,6 +40,11 @@
 		&.arnhem-blond {
 
 			font-family: @font-family-serif;
+		}
+
+		@media (max-width: @screen-xs-min) {
+
+			font-size: 21px;
 		}
 	}
 }

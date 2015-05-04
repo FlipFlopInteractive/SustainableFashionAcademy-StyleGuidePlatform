@@ -3,12 +3,16 @@ layout: 		font-layout
 
 title: 			Typography
 description:	|
-  We have selected the following typography.  
+  We have selected the typography Futura for headings in combination with Arnhem as plain text.
+  Futura gives the sense of being efficient, progressive and impactful, while Arnhem is distinct, elegant and easy to read. 
+
+  We believe the combination of these fonts utilized as described under chapter: [ Layout ]( #layout-rhythm ) - is true to our the brand image.
+
   Click on the link icon to download a webfont archive file of the font.
 
 fonts:
   - Futura Bold
   - Futura Book
-  - Anrhem Blond
+  - Arnhem Blond
 
 ---

@@ -228,7 +228,7 @@ module.exports = function( grunt ){
 				},
 				src: './dist',
 				dest: './public_html/branding/',
-				exclusions: [ './dist/**/.DS_Store' ]
+				exclusions: [ './dist/**/.DS_Store', './dist/**/*.mp4', './dist/**/*.ogv', './dist/**/*.webm' ]
 			}
 		}
 	});
